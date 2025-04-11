@@ -1,42 +1,24 @@
-# Calibration_Camera-LiDAR-ROS2
-ROS2 camera <=> 3D LiDAR extrinics calibration with ROS2 
+# Camera-3D-LiDAR-extrinsic-calibration-ROS2
+The camera and 3D LiDAR extrinic prameter calibration projects with ROS2 package.
 
 ## Getting Started
+* You have to know your [camera intrinic parameters](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Docker image
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+TBD
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+TBD
 
 ## Running the tests
-
-Explain how to run the automated tests for this system
-
+TBD
 ### Results
 https://github.com/user-attachments/assets/a5c554dc-e2f8-44b4-8676-763501389c32
 
 ## References
 
+[Matlab LiDAR Toolbox](https://ww2.mathworks.cn/help/lidar/ug/lidar-and-camera-calibration.html)
+
+Zhou, Lipu, Zimo Li, and Michael Kaess. “Automatic Extrinsic Calibration of a Camera and a 3D LiDAR Using Line and Plane Correspondences.” In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 5562–69. Madrid: IEEE, 2018. https://doi.org/10.1109/IROS.2018.8593660.
