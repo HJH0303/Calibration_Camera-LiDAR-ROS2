@@ -17,6 +17,8 @@ TBD
 ### Results
 https://github.com/user-attachments/assets/a5c554dc-e2f8-44b4-8676-763501389c32
 
+![image](https://github.com/user-attachments/assets/8f22a4f0-e05f-463f-b5b1-24755e291e33)
+
 ## References
 [1] Zhou, Lipu, Zimo Li, and Michael Kaess. “Automatic Extrinsic Calibration of a Camera and a 3D LiDAR Using Line and Plane Correspondences.” In 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 5562–69. Madrid: IEEE, 2018. https://doi.org/10.1109/IROS.2018.8593660.
 
