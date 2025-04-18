@@ -1,20 +1,33 @@
 # Camera-3D-LiDAR-extrinsic-calibration-ROS2
-The camera and 3D LiDAR extrinic prameter calibration projects with ROS2 package.
+The camera and 3D LiDAR extrinic prameter calibration projects with ROS2 humble package.
 
 ## Getting Started
 * You have to know your [camera intrinic parameters](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html)
+*  You will need to publish 3D LiDAR points and camera images to ROS2.
+```
+sensor_msgs/msg/Image
+sensor_msgs/msg/PointCloud2
+```
+### Docker usage
+Go to the this [docker_usage.md](https://github.com/HJH0303/Camera-3D-LiDAR-extrinsic-calibration-ROS2/blob/main/dcoker_usage.md)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Installing
+```
+git clone https://github.com/HJH0303/Camera-3D-LiDAR-extrinsic-calibration-ROS2.git
+cd Camera-3D-LiDAR-extrinsic-calibration-ROS2
+mv ./calib_pkg ~/your_ws/src
+cd ~/your_ws
+colcon build
+```
 
-### Docker image
-TBD
+## Running calibration node
+```
+ros2 run calib_pkg calib_extrinics_param.py
+```
+## Usage
+https://github.com/user-attachments/assets/8b300b63-a796-4731-baf8-84469ef2b8ea
 
-### Installing
-TBD
-
-## Running the tests
-TBD
-### Results
+## Results
 https://github.com/user-attachments/assets/a5c554dc-e2f8-44b4-8676-763501389c32
 
 ![image](https://github.com/user-attachments/assets/8f22a4f0-e05f-463f-b5b1-24755e291e33)
