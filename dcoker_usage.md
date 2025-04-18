@@ -9,3 +9,8 @@ You can use docker_run.sh files for building the image.
 ```
 ./docker_run.sh image_name container_name
 ```
+There is an rosbag folder to play the camera and 3d LiDAR data.
+```
+cd ~/root
+ros2 bag play velo_zed2.bag
+```
