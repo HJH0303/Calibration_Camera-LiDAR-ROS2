@@ -7,5 +7,5 @@ docker pull eveeeee/calib_cam_lidar
 ```
 You can use docker_run.sh files for building the image.
 ```
-./docker_run.sh image_name container name
+./docker_run.sh image_name container_name
 ```
