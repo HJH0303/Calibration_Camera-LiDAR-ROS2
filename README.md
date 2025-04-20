@@ -27,6 +27,9 @@ ros2 run calib_pkg calib_extrinics_param.py
 ## Usage
 https://github.com/user-attachments/assets/8b300b63-a796-4731-baf8-84469ef2b8ea
 
+## Algorithm
+![ㅇ](https://github.com/user-attachments/assets/8a7877cd-2834-4017-835d-efa1a5b732c7)
+
 ## Results
 https://github.com/user-attachments/assets/a5c554dc-e2f8-44b4-8676-763501389c32
 
