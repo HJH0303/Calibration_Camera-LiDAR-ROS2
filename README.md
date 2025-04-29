@@ -13,6 +13,8 @@ Go to the this [docker_usage.md](https://github.com/HJH0303/Camera-3D-LiDAR-extr
 
 ## Installing
 ```
+pip install open3d-python
+pip install opencv-python
 git clone https://github.com/HJH0303/Camera-3D-LiDAR-extrinsic-calibration-ROS2.git
 cd Camera-3D-LiDAR-extrinsic-calibration-ROS2
 mv ./calib_pkg ~/your_ws/src
